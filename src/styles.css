@@ -28,18 +28,31 @@ main{
 
 main .container{
     background-color: white;
-    padding: 2rem;
+    padding:  1rem 3rem 2rem;
 }
 
 .extension-title{
-    padding: .5rem;
+    padding: 0;
     font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.list{
+  list-style: none;
 }
 
 .list-items{
     font-weight: 400;
+    padding: .3rem;
+    transition: all .3s
 }
 
 .list-items:nth-child(odd){
-    background-color: transparent;
+    background-color: gainsboro;
+}
+
+.list-items:hover{
+  background-color: grey;
+  color: white;
+  scale: 1.02
 }
