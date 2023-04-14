@@ -29,6 +29,9 @@ main{
 main .container{
     background-color: white;
     padding:  1rem 3rem 2rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.23);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .extension-title{
@@ -43,6 +46,7 @@ main .container{
 
 .list-items{
     font-weight: 400;
+    font-size: smaller;
     padding: .3rem;
     transition: all .3s
 }
