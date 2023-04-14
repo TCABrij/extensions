@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins:wght@200;300;400;500&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.title{
+    padding: 2rem;
+    font-weight: 600;
+    background-color: darkmagenta;
+    color: white;
+}
+
+main{
+    background-color: gainsboro;
+    display: grid;
+    place-content: center;
+}
+
+main .container{
+    background-color: white;
+}
+
+.extension-title{
+    padding: .5rem;
+    font-weight: 600;
+}
+
+.list-items{
+    font-weight: 400;
+}
+
+.list-items:nth-child(odd){
+    background-color: transparent;
+}
