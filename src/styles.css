@@ -28,6 +28,7 @@ main{
 
 main .container{
     background-color: white;
+    padding: 2rem;
 }
 
 .extension-title{
