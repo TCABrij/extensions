@@ -1,84 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins:wght@200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins:wght@200;300;400;500&display=swap");
 
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "poppins", sans-serif;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
 
-body{
-    height: 100vh;
+.title {
+  padding: 2rem;
+  font-weight: 600;
+  background-color: darkmagenta;
+  color: white;
 }
 
-.title{
-    padding: 2rem;
-    font-weight: 600;
-    background-color: darkmagenta;
-    color: white;
+main {
+  background-color: gainsboro;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 
-main{
-    background-color: gainsboro;
-    display: grid;
-    place-content: center;
+main .card {
+  background-color: white;
+  padding: 1rem 3rem 2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.23);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
-main .container{
-    background-color: white;
-    padding:  1rem 3rem 2rem;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.23);
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+.extension-title {
+  padding: 0;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
-.extension-title{
-    padding: 0;
-    font-weight: 600;
-    margin-bottom: 1rem;
-}
-
-.list{
+.list {
   list-style: none;
 }
 
-.list-items{
-    font-weight: 400;
-    font-size: smaller;
-    padding: .3rem;
-    transition: all .3s
+.list-items {
+  font-weight: 400;
+  font-size: smaller;
+  padding: 0.3rem;
+  transition: all 0.3s;
+  border-bottom: 1px solid grey;
 }
 
-.list-items:nth-child(odd){
-    background-color: gainsboro;
+.list-items:nth-child(odd) {
+  background-color: gainsboro;
 }
 
-.list-items:hover{
+.list-items:hover {
   background-color: grey;
   color: white;
-  scale: 1.02
+  scale: 1.02;
 }
 
-.github-wrapper{
-    position: absolute;
-    height: 40px;
-    left: 0;
-    bottom: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.23);
-    overflow: hidden;
-    outline: 1px solid white;
-    margin: .5rem;
-    transition: all .3s;
+.github-wrapper {
+  position: absolute;
+  height: 40px;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+  outline: 1px solid white;
+  margin: 0.5rem;
+  transition: all 0.3s;
+  background-color: white;
 }
 
-.github-wrapper img{
-    width: 40px;
-    object-fit: cover;
+.github-wrapper img {
+  width: 40px;
+  object-fit: cover;
 }
 
-.github-wrapper:hover{
+.github-wrapper:hover {
   scale: 1.05;
 }
