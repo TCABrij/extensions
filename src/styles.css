@@ -60,3 +60,25 @@ main .container{
   color: white;
   scale: 1.02
 }
+
+.github-wrapper{
+    position: absolute;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.23);
+    overflow: hidden;
+    outline: 1px solid white;
+    margin: .5rem;
+    transition: all .3s;
+}
+
+.github-wrapper img{
+    width: 40px;
+    object-fit: cover;
+}
+
+.github-wrapper:hover{
+  scale: 1.05;
+}
